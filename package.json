@@ -1,6 +1,6 @@
 {
   "name": "@xpresser/jwt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Jwt helper using fast-jwt",
   "main": "index.js",
   "types": "index.d.ts",
