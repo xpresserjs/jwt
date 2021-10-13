@@ -15,5 +15,5 @@ const secretKey = config.get('secretKey');
 
 // Sync style
 // const
-export const signJwt: ((token: string | Buffer) => string) = createSigner({key: secretKey, ...signerConfig}) as any;
+export const signJwt: ((token: string | Buffer | Record<any, any>) => string) = createSigner({key: secretKey, ...signerConfig}) as any;
 export const verifyJwt: ((token: string | Buffer) => any) = createVerifier({key: secretKey, ...verifierConfig}) as any;
