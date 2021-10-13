@@ -8,7 +8,7 @@
   "author": "xpresserjs",
   "license": "MIT",
   "scripts": {
-    "prepublish": "npx tsc"
+    "prepublishOnly": "npx tsc"
   },
   "private": false,
   "devDependencies": {
