@@ -42,7 +42,7 @@ More `signer` and `verifier` configuration options can be found [here](http://np
 In your controller or anywhere in your project.
 
 ```javascript
-const {signJwt, verifyJwt} = require("@xpress/jwt");
+const {signJwt, verifyJwt} = require("@xpresser/jwt");
 
 // Sign Data
 const token = signJwt({user: 'john_doe'});
