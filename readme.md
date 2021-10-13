@@ -3,6 +3,12 @@
 Easy and Fast jwt setup for your project.
 
 This plugin makes use of [fast-jwt](http://npmjs.org/package/fast-jwt) with caching support out of the box.
+ 
+**MENU**
+ - [Installation](#installation)
+ - [Add to plugins.json](#add-to-pluginsjson)
+ - [Add Config](#add-to-your-project-config)
+ - [Usage](#usage)
 
 ### Installation
 
@@ -10,6 +16,15 @@ This plugin makes use of [fast-jwt](http://npmjs.org/package/fast-jwt) with cach
 npm i @xpresser/jwt
 # OR
 yarn add @xpresser/jwt
+```
+
+
+### Add to plugins.json
+
+```json
+{
+  "npm://@xpresser/jwt": true
+}
 ```
 
 ### Add to your project config.
@@ -29,13 +44,6 @@ yarn add @xpresser/jwt
 ```
 More `signer` and `verifier` configuration options can be found [here](http://npmjs.org/package/fast-jwt)
 
-### Add to plugins.json
-
-```json
-{
-  "npm://@xpresser/jwt": true
-}
-```
 
 ### Usage
 
@@ -48,5 +56,6 @@ const {signJwt, verifyJwt} = require("@xpresser/jwt");
 const token = signJwt({user: 'john_doe'});
 
 // Verify/Decode
-verifyJwt(token) // {user: 'john_doe}
+verifyJwt(token) 
+// { user: "john_doe", iat: 1634151036, exp: 1634151046}
 ```
