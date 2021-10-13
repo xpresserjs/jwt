@@ -7,6 +7,9 @@
   "repository": "https://github.com/xpresserjs/jwt.git",
   "author": "xpresserjs",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "npx tsc"
+  },
   "private": false,
   "devDependencies": {
     "typescript": "^4.4.4",
