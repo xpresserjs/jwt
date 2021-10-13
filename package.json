@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Jwt helper using fast-jwt",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/xpresserjs/jwt.git",
   "author": "xpresserjs",
   "license": "MIT",
