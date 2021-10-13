@@ -1,0 +1,4 @@
+{
+  "namespace": "jwt",
+  "use_index": "./plugin-index.js"
+}

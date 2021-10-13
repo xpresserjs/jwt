@@ -1,0 +1,17 @@
+{
+  "name": "@xpresser/jwt",
+  "version": "1.0.0",
+  "description": "Jwt helper using fast-jwt",
+  "main": "index.js",
+  "repository": "https://github.com/xpresserjs/jwt.git",
+  "author": "xpresserjs",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "xpresser": "^0.22.3"
+  },
+  "dependencies": {
+    "fast-jwt": "^1.2.0"
+  }
+}
