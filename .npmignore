@@ -7,3 +7,5 @@ tests
 *.ts
 # include the .d.ts files
 !*.d.ts
+
+use-xjs-cli.json

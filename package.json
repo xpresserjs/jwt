@@ -8,15 +8,21 @@
   "author": "xpresserjs",
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "npx tsc"
+    "prepublishOnly": "npx tsc",
+    "test": "cd tests && npx ts-node-dev --respawn server.ts"
   },
   "private": false,
   "devDependencies": {
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.4",
     "xpresser": "^0.22.3"
   },
   "dependencies": {
     "fast-jwt": "^1.2.0"
   },
-  "keywords": ["xpresser", "jwt", "xpresser-plugin"]
+  "keywords": [
+    "xpresser",
+    "jwt",
+    "xpresser-plugin"
+  ]
 }
